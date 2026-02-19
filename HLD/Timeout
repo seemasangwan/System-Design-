@@ -1,0 +1,15 @@
+Connection Timeout 
+The maximum time allowed to establish a connection to the server.
+Happens before any data is sent or received.
+Protects against situations where the server is unreachable, down, or too slow to respond to the initial handshake.
+Example: If you set ConnectionTimeout = 5 seconds and the server doesn’t accept the connection within that time, you’ll get a ConnectionTimeoutException
+
+
+SocetTimeout 
+The maximum time allowed for waiting on data after the connection has been established.
+Happens after the connection is open, during data transfer.
+Protects against situations where the server accepts the connection but doesn’t send data, or the network stalls mid-transfer.
+Example: If you set SocketTimeout = 10 seconds and the server doesn’t send a response within that time, you’ll get a SocketTimeoutException
+
+
+
