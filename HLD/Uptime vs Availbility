@@ -1,0 +1,23 @@
+Uptime : percenatge if time a system is up and running  
+Example: no downtime in 2 month uptime is 100% , if 2 hr outage then uptime is 99.86% 
+it shows reliability but does not guramtee usability
+machine is running  
+
+
+Avaiblity : Avaiblity includes both system uptime and schedules maintenance 
+if system is up but not accessible to user then system avaibality is low 
+it reflect overall system reliability  
+user expecience 
+
+
+Watermelon Effect
+Metrics look good externally (green), but internally customers are unhappy (red).
+SLA reports may show compliance, but actual user experience is poor.
+Customer satisfaction depends on transparency and focusing on end-user metrics
+
+Five Nines (99.999%)
+Benchmark for high reliability.
+Means ~5.26 minutes downtime per year.
+Often marketed in SLAs, but hard to achieve consistently.
+Each extra “Nine” requires more resources and planning.
+
