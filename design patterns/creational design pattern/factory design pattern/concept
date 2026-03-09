@@ -9,3 +9,6 @@ Object creation happens at one centralized place (factory class)
 Object type can be decided at runtime
 Client code does not know how the object is created
 Easy to extend by adding new object types
+
+
+Factory Pattern creates objects through a factory class instead of directly using new, hiding the creation logic and allowing object type to be decided at runtime.
