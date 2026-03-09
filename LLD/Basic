@@ -1,0 +1,36 @@
+1. Requirement gathering ( understanding the problem statement) ( activity diagram in plain english)
+2. lying down usecase
+3. UML diagrams
+     1  class diagram
+     2. sequence diagram
+     3. activity diagram
+
+
+How to approach any LLD problem
+1. class structure 
+2. Design Pattern
+3. Relationship
+4. Implemenation details
+
+
+Understanding of rquirement
+interviewer design a movie booking system 
+
+This is my understaidng user browser movie booking app , search for movie , check if its avaible or not , if yes check the avaible threater and slot and check seat for seat
+book the seat and make payment and got ticket
+
+
+would you like to add  any details to this understanding
+
+Identify entities
+1. user 
+2. movie
+3. booking
+4. seat
+5. theather'
+6. payment
+7. ticket
+
+Identify core methods
+1. bookSeat
+2. 
