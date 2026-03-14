@@ -1,0 +1,5 @@
+public interface DatabaseConnection {
+    public void createConnection();
+    public void closeConnection();
+    public boolean isConnected();
+}
