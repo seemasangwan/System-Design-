@@ -1,4 +1,4 @@
 public interface DatabaseFactory {
-    public DatabaseConnection getDatabaseConnection();
-    public DatabaseQueryExecutor getDatabaseQueryExecutor();
+     DatabaseConnection getDatabaseConnection();
+     DatabaseQueryExecutor getDatabaseQueryExecutor();
 }
