@@ -43,3 +43,31 @@ The **Builder Pattern** solves this problem by:
   new User.UserBuilder("name", "email")
       .setAge(22)
       .build();
+
+  ## 🚀 Real-World Usage (Using Lombok)
+
+In real-world projects, instead of manually writing the Builder class, we often use **Lombok** to reduce boilerplate code.
+
+### 🔹 Using Lombok `@Builder`
+
+Lombok automatically generates:
+- A static **Builder class**
+- **Builder methods** (setter-like methods, not actual setters of the main class)
+- A `build()` method
+- An internal **all-arguments constructor**
+
+---
+
+### ✅ Example
+
+```java
+import lombok.Builder;
+
+@Builder
+public class User {
+    private String userName;
+    private String emailAddress;
+    private String phoneNumber;
+    private int age;
+    private String address;
+}
